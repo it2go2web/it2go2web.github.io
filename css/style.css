@@ -1,0 +1,14 @@
+nav {
+  background-color:#00BCD4;
+  border-radius:0 !important;
+}
+
+@media (max-width: 600px) {
+  .navbar-brand {
+    display:none;
+  }
+}
+
+.nav-item {
+  padding-left: 1em;
+}
