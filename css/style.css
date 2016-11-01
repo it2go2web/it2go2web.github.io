@@ -38,3 +38,16 @@ video {
 .overlay h1 {
   padding-top: 25%;
 }
+
+/** Web Divider **/
+.divider {
+  height:15px;
+  width: 100%;
+  background-color:black;
+  margin-bottom: 1em;
+}
+
+/** About Content **/
+#about-content {
+  margin-bottom: 1em;
+}
