@@ -44,10 +44,16 @@ video {
   height:15px;
   width: 100%;
   background-color:black;
-  margin-bottom: 1em;
 }
 
 /** About Content **/
 #about-content {
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/** Footer **/
+footer {
+  background-color: #263238;
+  height: 100px;
 }
