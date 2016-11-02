@@ -56,4 +56,11 @@ video {
 footer {
   background-color: #263238;
   height: 100px;
+  color:grey;
+  text-align: center;
+}
+
+.footer-text {
+  padding-top: 70px;
+  margin-bottom: 0px;
 }
