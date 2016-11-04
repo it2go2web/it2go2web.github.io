@@ -48,12 +48,12 @@ video {
 
 /** About Content **/
 .content {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 /** Service Content **/
-.feature p {
+.service p {
   text-align: center;
 }
 
