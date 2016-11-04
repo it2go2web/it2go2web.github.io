@@ -52,6 +52,12 @@ video {
   margin-bottom: 2em;
 }
 
+/** Service Content **/
+.feature p {
+  text-align: center;
+}
+
+
 /** Footer **/
 footer {
   background-color: #263238;
