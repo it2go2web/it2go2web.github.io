@@ -13,6 +13,11 @@ nav {
 
 .nav-item {
   padding-left: 1em;
+  font-size: 1.25em;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
 }
 
 .nav-link {
@@ -46,8 +51,15 @@ video {
   background-color:black;
 }
 
-/** About Content **/
+/** General Content **/
 .content {
+  max-width: 55rem;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/** About Content **/
+.content-block {
   margin-top: 5em;
   margin-bottom: 5em;
 }
