@@ -2,7 +2,7 @@
   background-color:#B71C1C;
 }
 
-.nav {
+.nav, .home-page{
   max-width: 48rem;
   margin-left:auto;
   margin-right:auto;
@@ -20,4 +20,56 @@
   .navbar-brand {
     display:none;
   }
+}
+
+/** About section **/
+.about-section, .services-section {
+  margin-top: 48px;
+}
+
+
+/** Services section **/
+.service-list {
+  margin-top: 32px;
+}
+
+.service img {
+  width: 10em;
+  margin-bottom: 16px;
+}
+
+.service {
+  margin-bottom: 56px;
+}
+
+/** Footer **/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 125px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 125px;
+  background-color:#4F4F4F;
+}
+
+.footer-content {
+  max-width: 48rem;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  padding-top: 1.5em;
+  color: #BDBDBD;
+}
+
+.footer-content a,.footer-content a:hover,.footer-content a:focus {
+  color: #BDBDBD
 }
