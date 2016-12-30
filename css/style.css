@@ -1,5 +1,9 @@
+/** Navbar **/
+
 .navbar {
-  background-color:#B71C1C;
+  background-color:white;
+  border-radius: 0px;
+  border-bottom: 5px solid #B71C1C;
 }
 
 .nav, .home-page{
@@ -12,8 +16,12 @@
   font-size: 1.5em
 }
 
+.nav-item {
+  padding-top: 10px;
+}
+
 .nav a {
-  color:white !important;
+  color:black !important;
 }
 
 @media (max-width: 600px) {
@@ -25,12 +33,13 @@
 /** About section **/
 .about-section, .services-section {
   margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 
 /** Services section **/
 .service-list {
-  margin-top: 32px;
+  margin-top: 48px;
 }
 
 .service img {
@@ -50,14 +59,14 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 125px;
+  margin-bottom: 100px;
 }
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 125px;
+  height: 100px;
   background-color:#4F4F4F;
 }
 
@@ -68,8 +77,15 @@ body {
   text-align:center;
   padding-top: 1.5em;
   color: #BDBDBD;
+  font-size: 0.75em;
 }
 
 .footer-content a,.footer-content a:hover,.footer-content a:focus {
   color: #BDBDBD
+}
+
+/** Divider **/
+hr {
+  border-color:#B71C1C;
+  border-width: 2px;
 }
