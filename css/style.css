@@ -30,6 +30,11 @@
   }
 }
 
+/** Carousel **/
+#carousel-example-generic{ 
+  margin-top: 16px;
+}
+
 /** About section **/
 .about-section, .services-section {
   margin-top: 48px;
