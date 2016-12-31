@@ -3,7 +3,7 @@
 .navbar {
   background-color:white;
   border-radius: 0px;
-  border-bottom: 5px solid #B71C1C;
+  border-bottom: 5px solid #C8161A;
 }
 
 .nav, .home-page, #carousel-example-generic{
@@ -41,7 +41,7 @@
   background-color:#0277BD;
   width: 100%;
   padding: 32px;
-  border-bottom: 5px solid #B71C1C;
+  border-bottom: 5px solid #C8161A;
 }
 
 /** About section **/
@@ -100,6 +100,6 @@ body {
 
 /** Divider **/
 hr {
-  border-color:#B71C1C;
+  border-color:#C8161A;
   border-width: 2px;
 }
