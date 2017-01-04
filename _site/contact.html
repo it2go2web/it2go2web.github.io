@@ -55,38 +55,47 @@
       <div class = "contact-page">
     <div class = "container-fluid">
         <h1>Contact IT2GO2</h1>
-        <form name = "contact-form">
-            <div class = "input-group">
+        <form name = "contact-form" action="https://formspree.io/it2go2now@gmail.com"
+      method="POST">
+            <div class = "form-group">
                 <label>First Name: </label>
-                <input type = "text" class = "form-control"/>
+                <input type = "text" name = "firstname" class = "form-control"/>
             </div>
 
-            <div class = "input-group">
+            <div class = "form-group">
                 <label>Last Name: </label>
-                <input type = "text" class = "form-control"/>
+                <input type = "text" name = "lastname" class = "form-control"/>
             </div>
-            <div class = "input-group">
+            <div class = "form-group">
                 <label>Phone number: </label>
-                <input type = "tel" class = "form-control"/>
+                <input type = "tel" name = "telephone" class = "form-control"/>
             </div>
 
-            <div class = "input-group">
+            <div class = "form-group">
                 <label>Service type: </label>
                 <!-- list of services select -->
                 <select class = "form-control" name = "services">
-                    <option value = "bleh" selected>Bleh</option>
-                    <option value = "bleh2">Bleh2</option>
+                    <option value = "Hard Drive Recovery" selected>Hard Drive Recovery</option>
+                    <option value = "External HDD Recovery">External HDD Recovery</option>
+                    <option value = "Laptop Data Recovery">Laptop Data Recovery</option>
+                    <option value = "USB Data Recovery">USB Data Recovery</option>
+                    <option value = "SSD Data Recovery">SSD Data Recovery</option>
+                    <option value = "Deleted Data Recovery">Deleted Data Recovery</option>
+                    <option value = "SD Data Recovery">SD Data Recovery</option>
+                    <option value = "Mobile Data Recovery">Mobile Data Recovery</option>
+                    <option value = "Website Design">Website Design</option>
                 </select>
             </div>
 
-            <div class = "input-group">
+            <div class = "form-group">
                 <label>Email: </label>
-                <input type = "email" class = "form-control" />
+                <input type = "email" class = "form-control" name="_replyto"/>
             </div>
-            <button style = "margin-top: 16px" type = "submit" class = "btn btn-primary">Submit</button>
+            <input style = "margin-top: 16px" type = "submit" class = "btn btn-primary" value = "Send"></input>
         </form>
     </div>
 </div>
+
     </div>
     <footer class="footer container-fluid">
     <div class = "footer-content">
