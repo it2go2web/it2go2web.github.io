@@ -57,13 +57,35 @@
 }
 
 .service img {
-  width: 10em;
+  width: 150px;
   margin-bottom: 16px;
 }
 
 .service {
   margin-bottom: 56px;
 }
+
+.service-link {
+  color:black;
+}
+
+.service-link:hover {
+  text-decoration: none;
+  color:#0277BD;
+}
+
+/** Service section mobile **/
+@media only screen and (max-width: 768px) {
+  .service img {
+    display:none;
+  }
+
+  .service {
+    margin-bottom: 16px;
+  }
+
+}
+
 
 /** Footer **/
 html {
