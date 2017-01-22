@@ -66,15 +66,15 @@
               Services
             </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="/services">Hard Drive Recovery</a>
-            <a class="dropdown-item" href="/services">External HDD Recovery</a>
-            <a class="dropdown-item" href="/services">Laptop Data Recovery</a>
-            <a class="dropdown-item" href="/services">USB Data Recovery</a>
-            <a class="dropdown-item" href="/services">SSD Data Recovery</a>
-            <a class="dropdown-item" href="/services">Deleted Data Recovery</a>
-            <a class="dropdown-item" href="/services">SD Data Recovery</a>
-            <a class="dropdown-item" href="/services">Mobile Data Recovery</a>
-            <a class="dropdown-item" href="/services">Website Design</a>
+            <a class="dropdown-item" href="/services/hard-drive-recovery.html">Hard Drive Recovery</a>
+            <a class="dropdown-item" href="/services/external-hdd-recovery.html">External HDD Recovery</a>
+            <a class="dropdown-item" href="/services/laptop-data-recovery.html">Laptop Data Recovery</a>
+            <a class="dropdown-item" href="/services/usb-data-recovery.html">USB Data Recovery</a>
+            <a class="dropdown-item" href="/services/ssd-data-recovery.html">SSD Data Recovery</a>
+            <a class="dropdown-item" href="/services/deleted-data-recovery.html">Deleted Data Recovery</a>
+            <a class="dropdown-item" href="/services/sd-data-recovery.html">SD Data Recovery</a>
+            <a class="dropdown-item" href="/services/mobile-data-recovery.html">Mobile Data Recovery</a>
+            <a class="dropdown-item" href="/services/website-design.html">Website Design</a>
           </div>
         </li>
       </div>
@@ -89,12 +89,12 @@
       method="POST">
             <div class = "form-group">
                 <label>First Name: </label>
-                <input type = "text" name = "firstname" class = "form-control"/>
+                <input type = "text" name = "firstname" class = "form-control" required/>
             </div>
 
             <div class = "form-group">
                 <label>Last Name: </label>
-                <input type = "text" name = "lastname" class = "form-control"/>
+                <input type = "text" name = "lastname" class = "form-control" required/>
             </div>
             <div class = "form-group">
                 <label>Phone number: </label>
@@ -105,6 +105,7 @@
                 <label>Service type: </label>
                 <!-- list of services select -->
                 <select class = "form-control" name = "services">
+                    <option value = "More info">More info</option>
                     <option value = "Hard Drive Recovery" selected>Hard Drive Recovery</option>
                     <option value = "External HDD Recovery">External HDD Recovery</option>
                     <option value = "Laptop Data Recovery">Laptop Data Recovery</option>
@@ -119,7 +120,7 @@
 
             <div class = "form-group">
                 <label>Email: </label>
-                <input type = "email" class = "form-control" name="_replyto"/>
+                <input type = "email" class = "form-control" name="_replyto" required/>
             </div>
             <input style = "margin-top: 16px" type = "submit" class = "btn btn-primary" value = "Send"></input>
         </form>

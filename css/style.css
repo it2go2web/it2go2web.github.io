@@ -45,7 +45,7 @@
 }
 
 /** About section **/
-.about-section, .services-section {
+.about-section, .services-section, .services-page {
   margin-top: 48px;
   margin-bottom: 48px;
 }
