@@ -7,68 +7,23 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://www.it2go2.com/</loc>
-  <lastmod>2017-01-26T22:43:25+00:00</lastmod>
+  <loc>http://web.it2go2.com/</loc>
+  <lastmod>2017-02-11T22:04:54+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://www.it2go2.com/contact</loc>
-  <lastmod>2017-01-26T22:43:25+00:00</lastmod>
+  <loc>http://web.it2go2.com/contact</loc>
+  <lastmod>2017-02-11T22:04:54+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://www.it2go2.com/services/computer-diagnostics-and-repair.html</loc>
-  <lastmod>2017-01-26T22:43:25+00:00</lastmod>
+  <loc>http://web.it2go2.com/services/website-design.html</loc>
+  <lastmod>2017-02-11T22:04:54+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://www.it2go2.com/services/hard-drive-recovery.html</loc>
-  <lastmod>2017-01-26T22:43:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.it2go2.com/services/external-hdd-recovery.html</loc>
-  <lastmod>2017-01-26T22:43:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.it2go2.com/services/laptop-data-recovery.html</loc>
-  <lastmod>2017-01-26T22:43:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.it2go2.com/services/usb-data-recovery.html</loc>
-  <lastmod>2017-01-26T22:43:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.it2go2.com/services/ssd-data-recovery.html</loc>
-  <lastmod>2017-01-26T22:43:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.it2go2.com/services/deleted-data-recovery.html</loc>
-  <lastmod>2017-01-26T22:43:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.it2go2.com/services/sd-data-recovery.html</loc>
-  <lastmod>2017-01-26T22:43:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.it2go2.com/services/mobile-data-recovery.html</loc>
-  <lastmod>2017-01-26T22:43:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.it2go2.com/services/website-design.html</loc>
-  <lastmod>2017-01-26T22:43:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.it2go2.com/services/search-engine-optimization.html</loc>
-  <lastmod>2017-01-26T22:43:25+00:00</lastmod>
+  <loc>http://web.it2go2.com/services/software-development.html</loc>
+  <lastmod>2017-02-11T22:04:54+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 </urlset>
